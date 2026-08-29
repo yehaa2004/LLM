@@ -7,7 +7,7 @@
 
 ## 📸 Screenshot
 
-![IoT Data Intelligence Tool](screenshot.png)
+![IoT Data Intelligence Tool](Screenshot 2026-08-29 232543.png)
 
 ---
 
