@@ -5,10 +5,7 @@
 
 ---
 
-## 📸 Screenshot
 
-![IoT Data Intelligence Tool](![Uploading image.png…]()
-)
 
 ---
 
