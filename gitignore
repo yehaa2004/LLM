@@ -1,0 +1,41 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# ── HuggingFace model cache (huge — don't commit) ─────────────────────────────
+~/.cache/huggingface/
+*.bin
+*.safetensors
+*.gguf
+*.onnx
+
+# ── Node / Frontend ───────────────────────────────────────────────────────────
+node_modules/
+dist/
+.vite/
+
+# ── Data files (user uploads — don't commit) ──────────────────────────────────
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# ── OS / Editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Env / Secrets ─────────────────────────────────────────────────────────────
+.env
+.env.*
+*.key
