@@ -5,6 +5,12 @@
 
 ---
 
+## 📸 Screenshot
+
+![IoT Data Intelligence Tool](screenshot.png)
+
+---
+
 ## 🧠 How It Works
 
 ```
@@ -38,6 +44,7 @@ iot-llm-tool/
 │   ├── index.html
 │   ├── vite.config.js
 │   └── package.json
+├── screenshot.png
 ├── .gitignore
 └── README.md
 ```
@@ -100,8 +107,16 @@ uvicorn main:app --reload --port 8000
 
 Open a **new terminal window**:
 
+**Mac / Linux:**
 ```bash
 cd IOT_dataset_LLM/frontend
+npm install
+npm run dev
+```
+
+**Windows (PowerShell):**
+```powershell
+cd IOT_dataset_LLM\frontend
 npm install
 npm run dev
 ```
@@ -126,18 +141,22 @@ Once you upload a CSV or Excel file, try asking:
 - `Devices with humidity above 70%`
 - `Top 5 devices by energy consumption`
 - `Compare temperature and humidity`
+- `Make a bar chart of Open prices over time`
 
 ---
 
 ## 📁 Supported Data Format
 
-Upload a **CSV or Excel** file with columns like:
+Upload a **CSV or Excel** file. Works with any structured dataset, for example:
 
 ```
 timestamp, device_id, temperature, humidity, energy_consumption, location
 ```
 
-Any structured IoT dataset works.
+Or stock data like:
+```
+Date, Open, High, Low, Close, Adj Close, Volume
+```
 
 ---
 
@@ -180,6 +199,16 @@ The app automatically detects and uses your GPU.
 | RAG | Sentence Transformers + FAISS |
 | No Ollama | ✅ |
 | No API keys | ✅ |
+
+---
+
+## 📤 Push Updates to GitHub
+
+```powershell
+git add .
+git commit -m "your update message"
+git push
+```
 
 ---
 
